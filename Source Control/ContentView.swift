@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationView {
-                Rectangle().fill(Color.purple)
+                Rectangle().fill(Color.yellow)
                     .ignoresSafeArea(.all)
                     .navigationTitle("Source Control")
             }
