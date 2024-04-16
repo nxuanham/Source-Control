@@ -11,9 +11,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationView {
-                Rectangle().fill(Color.yellow)
-                    .ignoresSafeArea(.all)
-                    .navigationTitle("Source Control")
+                VStack {
+                    Rectangle().fill(Color.purple)
+                    Rectangle().fill(Color.green)
+                }
+                .ignoresSafeArea(.all)
+                .navigationTitle("Source Control")
             }
         }
     }
